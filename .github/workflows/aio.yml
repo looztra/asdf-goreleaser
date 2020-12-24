@@ -23,6 +23,7 @@ jobs:
         uses: asdf-vm/actions/plugin-test@v1
         with:
           command: goreleaser --version
+          version: v0.149.0
 
   lint:
     runs-on: ubuntu-latest
